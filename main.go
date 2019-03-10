@@ -14,8 +14,12 @@
 
 package main
 
-import "src/github.com/spf13/cobra/cobra/cmd"
+import (
+	"fmt"
+	"src/github.com/spf13/cobra/cobra/cmd"
+)
 
 func main() {
 	cmd.Execute()
+	fmt.Println("Hello World! by test1")
 }
