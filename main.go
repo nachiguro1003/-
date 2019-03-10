@@ -22,5 +22,6 @@ import (
 func main() {
 	cmd.Execute()
 	fmt.Println("Hello from test2")
-	fmt.Println("Hello World! by test1")
+	fmt.Println("Hello World! by test1 by test2")
+	fmt.Println("hellopooooooo!!")
 }
