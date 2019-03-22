@@ -15,13 +15,9 @@
 package main
 
 import (
-	"fmt"
-	"src/github.com/spf13/cobra/cobra/cmd"
+	"github.com/nachiguro1003/memo/cmd"
 )
 
 func main() {
 	cmd.Execute()
-	fmt.Println("Hello from test222")
-	fmt.Println("Hello World! by test1からまた変わったよ！！")
-	fmt.Println("Hello from the out side.")
 }
